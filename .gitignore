@@ -1,0 +1,71 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+.venv/
+ENV/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Caches, Backups & Temp Files
+.mpl_cache/
+*.bak
+*.orig
+*.tmp
+*.log
+
+# Environment Variables
+.env
+.env.*
+!.env.example
+
+# Local Databases & Dumps
+*.db
+*.sqlite
+*.sqlite3
+backend/trip_planner_mysql.sql
+
+# Trained ML Model Binaries (regenerate via: python -m app.ml.train)
+backend/saved_models/*.pkl
+backend/saved_models/*.json
+
+# Duplicate Backend Uploads (served from frontend/public/uploads/)
+backend/uploads/*
+!backend/uploads/.gitkeep
+
+# Node / Vite / TypeScript
+node_modules/
+dist/
+dist-ssr/
+.tmp/
+*.tsbuildinfo
+*.local
+npm-debug.log*
+yarn-debug.log*
+pnpm-debug.log*
+
+# IDE & OS
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
+Desktop.ini
